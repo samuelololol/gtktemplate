@@ -1,0 +1,8 @@
+
+*.swp
+
+*.o
+*.out
+
+tags
+cscope*

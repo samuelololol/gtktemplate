@@ -1,5 +1,15 @@
+                                                                        ___           ___      
+                                             ___           ___         /\_ \         /\_ \ (R) 
+    sssssssssssssamuelolololololololol      /\_ \         /\_ \     ___\//\ \     ___\//\ \    
+      ____    __      ___ ___   __  __    __\//\ \     ___\//\ \   / __`\\ \ \   / __`\\ \ \   
+     /',__\ /'__`\  /' __` __`\/\ \/\ \ /'__`\\ \ \   / __`\\ \ \ /\ \L\ \\_\ \_/\ \L\ \\_\ \_ 
+    /\__, `\\ \L\.\_/\ \/\ \/\ \ \ \_\ \\  __/ \_\ \_/\ \L\ \\_\ \\ \____//\____\ \____//\____\
+    \/\____/ \__/.\_\ \_\ \_\ \_\ \____/ \____\/\____\ \____//\____\/___/ \/____/\/___/ \/____/
+     \/___/ \/__/\/_/\/_/\/_/\/_/\/___/ \/____/\/____/\/___/ \/____/ by samuelololol@gmail.com 
+     
+
 
 Simple Gtk Application template
 ===============================
 
-    Source Files is spilt to mutliple instance as method of glade2
+Source Files is spilt to mutliple instance as method of glade2
