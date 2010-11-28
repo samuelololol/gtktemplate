@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <gtk/gtk.h>
-#include <unistd.h>
-#include <vte/vte.h>
+
+#include "callbacks.h"
 
 GtkWidget* create_window1(void);

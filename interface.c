@@ -12,23 +12,22 @@ GtkWidget* create_window1(void){
     }
 
     /* Pull out the UI elements build by glade3 */
-    GtkWidget* window;          /* create and connect by glade3 */
-
-    /* create manually */
+    GtkWidget* window1;          /* create and connect by glade3 */
+    /* create gtkwidget manually, i.e. vte widget*/
     //GtkWidget *vte;             /* add manually */ 
 
+
     /* connect to the element on glade3 */
-    window        = GTK_WIDGET(gtk_builder_get_object (builder,"window1"));
+    window1        = GTK_WIDGET(gtk_builder_get_object (builder,"window1"));
 
-
-    /* vte instance creation */
+    /* i.e. vte creation */
     //vte = vte_terminal_new(); 
 
-    /* connect the custom element to glade3 container */
-    //gtk_box_pack_start_defaults(GTK_BOX(window), vte);
+    /* i.e. connecting the custom element to glade3 container */
+    //gtk_box_pack_start_defaults(GTK_BOX(window1), vte);
 
     /* connect the signals in the interface */
-    //gtk_builder_connect_signals(builder,NULL);
+    gtk_builder_connect_signals(builder,NULL);
 
-    return window;
+    return window1;
 }
