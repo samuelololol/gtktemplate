@@ -1,11 +1,11 @@
 #include "interface.h"
 
-GtkWidget* create_window1(void){
+GtkWidget* create_window1(char * argv){
 
     /* load the program user interface from Glade3 by GtkBuilder */
     GError* error = NULL;
     GtkBuilder* builder = gtk_builder_new ();
-    if (!gtk_builder_add_from_file (builder, "gtkbuilder_saved_by_glade3.glade", &error))
+    if (!gtk_builder_add_from_file (builder, argv, &error))
     {
         g_warning ("Couldn't load builder file: %s", error->message) ;
         g_error_free (error);
@@ -27,6 +27,7 @@ GtkWidget* create_window1(void){
     //gtk_box_pack_start_defaults(GTK_BOX(window1), vte);
 
     /* connect the signals in the interface */
+    /* remember add -export-dynamic when compile and link */
     gtk_builder_connect_signals(builder,NULL);
 
     return window1;

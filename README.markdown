@@ -12,6 +12,9 @@
 Simple Gtk Application template
 ===============================
 
-+ Gtk+ with C program  
 
-    Source Files is spilt to mutliple instance as method of glade2
+Source Files is spilt to mutliple instances as the way glade2 does. 
+
++ gtk+/ with C program  
++ gtkmm/ with C++ program
+

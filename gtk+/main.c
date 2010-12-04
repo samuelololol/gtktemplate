@@ -6,7 +6,7 @@ int main(int argc, char *argv[])
 
     gtk_init(&argc, &argv);
     GtkWidget* window1;
-    window1 = create_window1();
+    window1 = create_window1("gtkbuilder_saved_by_glade3.glade");
     
 
     /* show all elements */

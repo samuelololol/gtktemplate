@@ -4,8 +4,8 @@ EXE = test.out
 
 CC = gcc
 CFLAGS = -Wall -ggdb 
-GLADE_CFLAGS = --cflags gtk+-2.0 #vte 
-GLADE_LDFLAGS =  --libs gtk+-2.0 #vte #gmodule-export-2.0 
+GLADE_CFLAGS = --cflags gtk+-2.0 vte 
+GLADE_LDFLAGS =  --libs gtk+-2.0 vte #gmodule-export-2.0 
 GTK_PKG_CONFIG_COMPILE = pkg-config $(GLADE_CFLAGS) $(GLADE_LDFLAGS)
 GTK_PKG_CONFIG_LINK = pkg-config $(GLADE_LDFLAGS)
 
